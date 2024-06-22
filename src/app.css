@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 * {
   background-color: #020617;
@@ -10,9 +10,35 @@ html {
   font-family: "Chakra Petch";
 }
 
-#map {
+h1 {
+  font-family: "Courgette";
+  font-size: 2.5rem;
+  background: linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  transition: all 600ms;
+}
+h1:hover {
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=370170&c2=ccb8f2&gt=l&gd=dtl
+*/
+  background: linear-gradient(135deg, #370170, #ccb8f2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+#map-image {
   width: 90%;
-  height: 20rem;
+  height: 40rem;
   border: 1px solid #ccc;
   margin: 2rem auto;
   display: flex;
@@ -25,6 +51,23 @@ form {
   font-family: "Chakra Petch";
   text-align: center;
   margin: 2rem auto;
+}
+
+.addy {
+  font-family: "Chakra Petch";
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, +400%);
 }
 
 .input-box {
