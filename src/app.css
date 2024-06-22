@@ -1,0 +1,39 @@
+#map {
+  width: 90%;
+  height: 20rem;
+  border: 1px solid #ccc;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+/* Add some spacing between form elements */
+form > * {
+  margin-bottom: 1rem;
+}
+
+/* Add some padding to form inputs */
+form input[type="text"] {
+  padding: 0.5rem;
+}
+
+/* Add some styling to form submit button */
+form input[type="submit"] {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add some hover effect to form submit button */
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
