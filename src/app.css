@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  background-color: #020617;
+  color: #f59e0b;
+  transition: all 300ms;
+}
+
+html {
+  font-family: "Chakra Petch";
+}
+
 #map {
   width: 90%;
   height: 20rem;
@@ -10,8 +22,46 @@
 }
 
 form {
+  font-family: "Chakra Petch";
   text-align: center;
   margin: 2rem auto;
+}
+
+.input-box {
+  font-size: 2.2rem;
+  padding: 1.5rem;
+  border-radius: 50px;
+  font-family: inherit;
+  border: 1px solid;
+  text-align: center;
+  display: inline-block;
+}
+
+.input-box:focus {
+  outline: 5px solid #16a34a;
+  color: #16a34a;
+  overflow: auto;
+  box-shadow: 1px 1px 500px 10px hsla(148, 93%, 45%, 0.546);
+}
+
+.btn {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 50px;
+  margin: 1rem;
+  background-color: #052e16;
+  transition: all 300ms;
+  font-family: inherit;
+}
+
+.btn:hover {
+  background-color: #16a34a;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #65a30d;
+  box-shadow: 0 10px 400px hsla(148, 93%, 45%, 0.546);
 }
 
 /* Add some spacing between form elements */
