@@ -40,7 +40,7 @@ function searchAddressHandler(e: Event) {
       console.log(addy);
 
       // Generate static map URL based on coordinates
-      const mapUrl = `https://maps.geoapify.com/v1/staticmap?style=maptiler-3d&width=600&height=400&center=lonlat:${lon},${lat}&zoom=14&apiKey=${Gonley}`;
+      const mapUrl = `https://maps.geoapify.com/v1/staticmap?&width=600&height=400&center=lonlat:${lon},${lat}&zoom=14&apiKey=${Gonley}`;
 
       // Update map image src attribute
       mapImage.src = mapUrl;
